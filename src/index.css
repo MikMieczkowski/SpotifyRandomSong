@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, #212121, #121212);;
+}
+
+body, .searchButton {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+img:hover, h3:hover, button:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #b3b3b3;
+}
+
+h3 {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.searchButton {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+    background-color: #1db954;
+}
+
+a {
+    color: #ffffff;
+}
+
+.jokeButton {
+    width: 100%;
+    padding: 40px; /* Add padding to make them larger */
+    font-size: 1.5rem; /* Make text larger */
+    cursor: pointer; /* Add pointer cursor on hover */
+    flex-direction: column; /* Stack buttons vertically */
+}
+
+.jokeButton2 {
+    display: flex; justify-content: center; align-items: center; width: 100%; flex-direction: column; gap: 10px;
+}
